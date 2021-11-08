@@ -1,0 +1,25 @@
+﻿生成启动时间为 2021/11/5 10:13:48。
+     1>项目“D:\Study\C\study\test\day1\day1\day1.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\P1.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         E:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt sum.c test.c
+         test.c
+     1>d:\study\c\study\test\day1\day1\test.c(10): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\microsoft visual studio 10.0\vc\include\stdio.h(304) : 参见“scanf”的声明
+         sum.c
+         正在生成代码...
+       Link:
+         E:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Study\C\study\test\day1\Debug\P1.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\P1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Study\C\study\test\day1\Debug\P1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Study\C\study\test\day1\Debug\P1.lib" /MACHINE:X86 Debug\sum.obj
+         Debug\test.obj
+         day1.vcxproj -> D:\Study\C\study\test\day1\Debug\P1.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Study\C\study\test\day1\Debug\P1.exe;#1" /manifest Debug\P1.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\P1.unsuccessfulbuild”。
+         正在对“Debug\P1.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Study\C\study\test\day1\day1\day1.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.77
